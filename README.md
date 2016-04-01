@@ -41,8 +41,8 @@ $ gem install linkedin-query-1.0.0.gem
 ##### Additional options
 
 ```bash
-$ linkedin-query "my query" --output yaml \\
-                            --pictures    \\
+$ linkedin-query "my query" --output yaml \
+                            --pictures    \
                             --timeout 5
 ```
 
