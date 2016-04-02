@@ -1,5 +1,5 @@
 module LinkedInQuery
-    class Error
+    module Error
         class TimeoutError < RuntimeError
         end
     end

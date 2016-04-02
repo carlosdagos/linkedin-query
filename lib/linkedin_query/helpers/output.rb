@@ -3,7 +3,7 @@ require 'yaml'
 require 'csv'
 
 module LinkedInQuery
-    class Helpers
+    module Helpers
         # Helps with the output of query results in an idiomatic way
         class Output
             def initialize(query_results, options)

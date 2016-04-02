@@ -1,5 +1,5 @@
 module LinkedInQuery
-    class Error
+    module Error
         class NotFoundError < RuntimeError
         end
     end

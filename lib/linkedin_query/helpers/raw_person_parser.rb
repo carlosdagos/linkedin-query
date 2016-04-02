@@ -2,7 +2,7 @@ require 'sanitize'
 require 'cgi'
 
 module LinkedInQuery
-    class Helpers
+    module Helpers
         # Helper to parse raw person data
         class RawPersonParser
             # This regex will match a string up to the last comma,

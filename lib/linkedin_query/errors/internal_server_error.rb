@@ -1,5 +1,5 @@
 module LinkedInQuery
-    class Error
+    module Error
         class InternalServerError < RuntimeError
         end
     end
